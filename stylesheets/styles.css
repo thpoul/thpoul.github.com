@@ -12,7 +12,11 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
 }
 
-p, ul, ol, table, pre, dl {
+p {
+  margin-top: 0px;
+}
+
+ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
@@ -26,6 +30,10 @@ h1 {
 
 h2 {
   color:#393939;
+}
+
+h3 {
+  margin-bottom: 5px;
 }
 
 h3, h4, h5, h6 {
@@ -44,6 +52,8 @@ a small {
   margin-top:-0.6em;
   display:block;
 }
+
+p.view { margin-bottom: 0px; }
 
 .wrapper {
   width:860px;
@@ -162,7 +172,7 @@ header ul a strong {
 section {
   width:500px;
   float:right;
-  padding-bottom:50px;
+  padding-top:11px;
 }
 
 small {
